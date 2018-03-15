@@ -12,6 +12,9 @@ public class main
 		
 		mainFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
+		MyComponent carComponent = new MyComponent();
+		mainFrame.add(carComponent);
+		
 		mainFrame.setVisible(true);
 	}
 }
